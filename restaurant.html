@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RetroDiner</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<!-- Header section -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <h3 class="mt-2 lh-1 nav--logo--text">RetroDiner</div>
+        </a>
+        <!-- Nav links -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AboutUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>             
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Ends here -->
+
+    <!-- Hero Section -->
+     <section class="b--g d-flex align-items-center flex-column mt-3">
+        <h1 class="text-white mt-5 display-1 text-decoration-line-through">RETRO DINER</h1>
+        <div class="mt-5">
+        <button type="button" class="btn btn-outline-light">RESERVATION</button>
+        </div>
+     </section>
+     <!-- Hero section Ends here -->
+
+<!-- Menu section -->
+ <div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <img src="menu1.jpg" class="card-img-top" alt="menu">
+  <div class="card-body">
+    <h5 class="card-title">Entrée</h5>
+    <p class="card-text">Start your meal with our flavorful entrées, featuring fresh ingredients and bold tastes to whet your appetite.</p>
+    <a href="#" class="btn btn-outline-dark">Cuisine</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <img src="menu3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Main courses</h5>
+    <p class="card-text">Enjoy our flavorful main courses, made with fresh, local ingredients. From savory meats to vibrant vegetarian dishes, there’s something for everyone.</p>
+    <a href="#" class="btn btn-outline-dark">Cuisine</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <img src="menu4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Desserts</h5>
+    <p class="card-text">Satisfy your sweet tooth with our delicious desserts, crafted to delight and indulge. Perfect for ending your meal on a high note.</p>
+    <a href="#" class="btn btn-outline-dark">Cuisine</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+ <!-- Menu section Ends here -->
+
+ <!-- About us section -->
+  <section class="bg-dark d-flex flex-column flex-lg-row container-fluid my-5 rounded mx-1 gap-4 align-items-center">
+        <img src="rest.jpg" class="img-fluid rounded-4 retro--interior--image m-3" alt="house"/>
+        <h3 class="text-center bg-dark text-white retro--description--container lh-base">Welcome to Retro Diner, where fine dining meets vintage charm. Our unique blend of retro aesthetics and lush greenery creates an inviting atmosphere, perfect for a memorable dining experience. Indulge in exquisite cuisine while enjoying the stylish ambiance of a timeless era.
+        </h3>
+        </section>
+  <!-- AboutUs Section Ends here -->
+
+  <!-- ContactUs section -->
+<form class="row g-3 border border-light rounded mx-5">
+    <h3>Contact Us</h3>
+   <div class="col-md-4">
+    <label for="validationDefault01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefaultUsername" class="form-label">Email</label>
+    <div class="input-group">
+      <span class="input-group-text" id="inputGroupPrepend2">@</span>
+      <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationDefault03" class="form-label">Message</label>
+    <input type="text" class="form-control" id="validationDefault03" required>
+  </div>
+  <div class="col-12 mb-2">
+    <button class="btn btn-outline-dark" type="submit">Submit form</button>
+  </div>
+</form>
+   <!-- ContactUs section ends here -->
+
+  <!-- Footer section -->
+   <section class="d-flex flex-column justify-content-center align-items-center mt-4">
+    <div class="d-flex flex-row gap-4">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div>
+        <p>2024 Retro Restaurant.  Terms and Conditions apply.  Privacy Policy.</p>
+    </div>
+
+   </section>
+   <!-- Footer section Ends here -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/a61736af53.js" crossorigin="anonymous"></script>
+  </body>
+</html>

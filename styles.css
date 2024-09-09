@@ -1,0 +1,18 @@
+img {
+  max-width: 100%;
+}
+.b--g {
+  background-image: url(foodhero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 80vh;
+}
+
+@media screen and (min-width: 992px) {
+  .retro--interior--image {
+    width: 70%;
+  }
+  .retro--description--container {
+    width: 30%;
+  }
+}
